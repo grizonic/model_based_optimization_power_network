@@ -1,5 +1,7 @@
-Framework of Model-Based Optimization applied to the Electrical Power Network
-=========================
+The purpose of this repo is mainly to host this code which is part of my graduation report. Therefore, it will probably be quite incomplete for those trying to understand the point behind it. If you're interested in oil-impregnated insulation, power transformers, decentralized control... feel free to contact me.
+
+# Framework of Model-Based Optimization applied to the Electrical Power Network
+
 The advanced ageing of the electrical power network combined with the inevitable increase
 of renewable energy utilization and the constant increase of power consumption over the last
 decades call for a change in the current power network paradigm. Electrical world stakeholders
@@ -33,4 +35,14 @@ in the system can also be incrementally upgraded, as this layer can be used at f
 more insightful source of data and only when desired it can be used as a more active factor in
 the electrical power network management.
 
-The purpose of this repo is mainly to host this code which is part of my graduation. Therefore, it will probably be quite incomplete for those trying to understand what this is doing here. If you're interested in oil-impregnated insulation, power transformers, decentralized control... feel free to contact me :)
+# Contents
+
+## Tettex 2840 Script:
+A simple python script that translates the raw xml outputted by the Tettex 2840 and produces quite costomizable csv files.
+
+## Single Agent Optimization:
+With an ugly Matlab GUI created in GUIDE and using real power flow data, you can variate several inputs to analyse the behaviour of a single agent built on top of a power transformer;
+
+## IEEE 14 network simulation:
+Agents are placed on all three transformers of the network. The network is transformed into a self-sustainable mesh that tries to distribute thermal loading throughout the less loaded nodes in order to avoid the steep lifetime consumption of highly thermally loaded transformers.
+
